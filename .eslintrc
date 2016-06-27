@@ -1,0 +1,59 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "plugins": [
+  ],
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "no-console": ["error", {"allow": ["warn", "error"]}],
+    "dot-location": ["error", "property"],
+    "dot-notation": "error",
+    "no-floating-decimal": "error",
+    "no-warning-comments": ["error", {"terms": ["fix", "xxx"], "location": "start"}],
+    "no-unused-vars": ["error", {"argsIgnorePattern": "^_$", "varsIgnorePattern": "^styles$"}],
+    "radix": ["error", "always"],
+    "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
+    "comma-spacing": "error",
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "block-spacing": "error",
+    "generator-star-spacing": "error",
+    "array-bracket-spacing": "error",
+    "computed-property-spacing": "error",
+    "eol-last": "error",
+    "linebreak-style": "error",
+    "indent": ["error", 2],
+    "jsx-quotes": ["error", "prefer-single"],
+    "quotes": ["error", "single", {"allowTemplateLiterals": true}],
+    "semi": ["error", "never"],
+    "space-before-blocks": "error",
+    "space-in-parens": "error",
+    "spaced-comment": "error",
+    "arrow-spacing": "error",
+    "template-curly-spacing": "error",
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-body-style": "error",
+    "no-useless-computed-key": "error",
+    "no-useless-constructor": "error",
+    "no-var": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "prefer-const": ["error", {"destructuring": "all"}],
+    "object-shorthand": "error",
+    "space-infix-ops": ["error", {"int32Hint": true}],
+    "no-duplicate-imports": ["error", {"includeExports": true}]
+  }
+}

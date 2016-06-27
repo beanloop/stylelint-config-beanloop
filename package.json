@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-beanloop",
+  "version": "0.1.1",
+  "description": "Beanloop stylelint c️o️n️f️i️g️️",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^6.7.1",
+    "stylelint-config-standard": "^9.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^2.9.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix stylelint.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beanloop/stylelint-config-beanloop.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Rasmus Eneman <rasmus@beanloop.se>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/beanloop/stylelint-config-beanloop/issues"
+  },
+  "homepage": "https://github.com/beanloop/stylelint-config-beanloop#readme"
+}
