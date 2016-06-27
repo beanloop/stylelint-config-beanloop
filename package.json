@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^6.1.0",
-    "eslint": "^2.9.0"
+    "eslint": "^2.9.0",
+    "eslint-config-beanloop": "^0.1.0"
   },
   "scripts": {
     "lint": "eslint --fix stylelint.config.js",
