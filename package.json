@@ -4,11 +4,11 @@
   "description": "Beanloop stylelint c️o️n️f️i️g️️",
   "main": "stylelint.config.js",
   "dependencies": {
-    "stylelint": "^6.7.1",
-    "stylelint-config-standard": "^9.0.0"
+    "stylelint": "^7.0.3",
+    "stylelint-config-standard": "^11.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.0",
+    "babel-eslint": "^6.1.2",
     "eslint": "^2.9.0",
     "eslint-config-beanloop": "^0.1.0"
   },
