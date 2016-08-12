@@ -30,18 +30,18 @@ const displayAndPositioning = [
 ]
   .concat(tlrb())
   .concat([
-    'align-content',
-    'align-items',
+    'order',
     'align-self',
     'flex',
-    'flex-basis',
-    'flex-direction',
-    'flex-flow',
     'flex-grow',
     'flex-shrink',
+    'flex-basis',
+    'flex-flow',
+    'flex-direction',
     'flex-wrap',
+    'align-content',
+    'align-items',
     'justify-content',
-    'order',
   ])
   .concat([
     'float',
@@ -63,6 +63,8 @@ const sizing = [
     'max-height',
 
     'overflow',
+    'overflow-x',
+    'overflow-y',
   ])
 
 const apperance = [
